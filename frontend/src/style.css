@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom animations for background transitions */
+@keyframes backgroundTransition {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.gradient-background {
+  background: linear-gradient(-45deg, #3b82f6, #1e40af, #dc2626, #b91c1c);
+  background-size: 400% 400%;
+  animation: backgroundTransition 15s ease infinite;
+}
+
+/* Smooth transitions for background color changes */
+.bg-transition {
+  transition: background-color 0.5s ease-in-out;
+}
