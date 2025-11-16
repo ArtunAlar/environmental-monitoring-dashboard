@@ -431,19 +431,3 @@ npm run serve -- --mode development
 🎯 **Next Steps** (when resources available):
 - Obtain eBird API key for real bird data
 - Add more water monitoring stations
-- Implement user accounts and data persistence
-- Add more environmental monitoring features
-
-## 📞 Support
-
-For issues and questions:
-1. Check the existing issues
-2. Create a new issue with detailed description
-3. Include steps to reproduce the problem
-4. Provide environment details (OS, browser, .NET version, etc.)
-
----
-
-**Repository**: https://github.com/ArtunAlar/environmental-monitoring-dashboard  
-**License**: MIT License  
-**Last Updated**: November 2024
